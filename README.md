@@ -33,7 +33,7 @@
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![Linux](https://img.shields.io/badge/linux-FCC624.svg?style=for-the-badge&logo=linux&logoColor=white)
 ![OracleSQL](https://img.shields.io/badge/oracle-F80000.svg?style=for-the-badge&logo=oracle&logoColor=white)
-src="https://img.shields.io/badge/mysql-4479A1?style=flat&logo=mysql&logoColor=white" /><img src="https://img.shields.io/badge/springboot-6DB33F?style=flat&logo=springboot&logoColor=white" /><img src="https://img.shields.io/badge/react-61DAFB?style=flat&logo=react&logoColor=white" /><img src="https://img.shields.io/badge/reactquery-FF4154?style=flat&logo=reactquery&logoColor=white" /><img src="https://img.shields.io/badge/redux-764ABC?style=flat&logo=redux&logoColor=white" />
+<img src="https://img.shields.io/badge/mysql-4479A1?style=flat&logo=mysql&logoColor=white" /><img src="https://img.shields.io/badge/springboot-6DB33F?style=flat&logo=springboot&logoColor=white" /><img src="https://img.shields.io/badge/react-61DAFB?style=flat&logo=react&logoColor=white" /><img src="https://img.shields.io/badge/reactquery-FF4154?style=flat&logo=reactquery&logoColor=white" /><img src="https://img.shields.io/badge/redux-764ABC?style=flat&logo=redux&logoColor=white" />
 
 <!--
 **eunyeoung22/eunyeoung22** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
