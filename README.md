@@ -21,6 +21,10 @@
 <img src="https://img.shields.io/badge/Anaconda-44A833?style=for-the-badge&logo=Anaconda&logoColor=white">
 <img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=for-the-badge&logo=Visual Studio&logoColor=white">
 ![Eclipse](https://img.shields.io/badge/Eclipse-2C2255.svg?style=for-the-badge&logo=Eclipse&logoColor=white)
+<img src="https://img.shields.io/badge/Jira-0052CC?style=flat&logo=Jira&logoColor=white"/>
+<img src="https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=Figma&logoColor=white"/>
+<img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=Git&logoColor=white" />
+<img src="https://img.shields.io/badge/sourcetree-0052CC?style=flat&logo=sourcetree&logoColor=white" />
 <br/>
 
 ### Studying 📖
@@ -29,6 +33,7 @@
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![Linux](https://img.shields.io/badge/linux-FCC624.svg?style=for-the-badge&logo=linux&logoColor=white)
 ![OracleSQL](https://img.shields.io/badge/oracle-F80000.svg?style=for-the-badge&logo=oracle&logoColor=white)
+src="https://img.shields.io/badge/mysql-4479A1?style=flat&logo=mysql&logoColor=white" /><img src="https://img.shields.io/badge/springboot-6DB33F?style=flat&logo=springboot&logoColor=white" /><img src="https://img.shields.io/badge/react-61DAFB?style=flat&logo=react&logoColor=white" /><img src="https://img.shields.io/badge/reactquery-FF4154?style=flat&logo=reactquery&logoColor=white" /><img src="https://img.shields.io/badge/redux-764ABC?style=flat&logo=redux&logoColor=white" />
 
 <!--
 **eunyeoung22/eunyeoung22** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
