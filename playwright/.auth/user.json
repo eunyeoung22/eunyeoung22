@@ -1,0 +1,115 @@
+{
+  "cookies": [
+    {
+      "name": "JSESSIONID",
+      "value": "08FF81661FA0D2FA9C0A2E2CA3F2A317.workers2",
+      "domain": "online.igangdong.or.kr",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_fwb",
+      "value": "237gPGBHWNB20MReJ8iwu2M.1713321589035",
+      "domain": ".online.igangdong.or.kr",
+      "path": "/",
+      "expires": 1747881591.920967,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "wcs_bt",
+      "value": "d21ffa3129f5cc:1713321589|1571a93ed5fe8e0:1713321589",
+      "domain": "online.igangdong.or.kr",
+      "path": "/",
+      "expires": 1747881589.131048,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "NWB",
+      "value": "35f453cb09ea86a8267d98380d242fcf.1713321589303",
+      "domain": ".wcs.naver.com",
+      "path": "/",
+      "expires": 1747881589.183166,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "WG_CLIENT_ID",
+      "value": "398594D8D6",
+      "domain": "online.igangdong.or.kr",
+      "path": "/",
+      "expires": 1713407991.586067,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "WG_VER_BACKEND",
+      "value": "V.22.08.17.0",
+      "domain": "online.igangdong.or.kr",
+      "path": "/",
+      "expires": 1713407991.586147,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "WG_TIME",
+      "value": "2024-04-17T11%3A39%3A51.584%2B09%3A00",
+      "domain": "online.igangdong.or.kr",
+      "path": "/",
+      "expires": 1713407991.586176,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "WG_TRACE",
+      "value": "STEP1%3ASKIP3%E2%86%92STEP2%3A%24WG_TOKEN_NO+is+null%E2%86%92%24WG_WAS_IP+is+null%E2%86%92%24WG_TOKEN_KEY+is+null%E2%86%92SKIP%E2%86%92STEP3%3APASS%2CTryCount%3A0%2C%E2%86%92return%3Afalse",
+      "domain": "online.igangdong.or.kr",
+      "path": "/",
+      "expires": 1713407991.586202,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "WG_CLIENT_IP",
+      "value": "106.246.238.82",
+      "domain": "online.igangdong.or.kr",
+      "path": "/",
+      "expires": 1713407991.586228,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "WG_WAS_IP",
+      "value": "1540-2.devy.kr",
+      "domain": "online.igangdong.or.kr",
+      "path": "/",
+      "expires": 1713407991.586252,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "WG_GATE_ID",
+      "value": "1471",
+      "domain": "online.igangdong.or.kr",
+      "path": "/",
+      "expires": 1713407991.586273,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}

@@ -1,0 +1,183 @@
+{
+  "config": {
+    "configFile": "c:\\Users\\imform-pc-17\\Documents\\bitbuket\\qa-test-script\\tennis\\gangil\\playwright.config.js",
+    "rootDir": "c:/Users/imform-pc-17/Documents/bitbuket/qa-test-script/tennis/gangil/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "result.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "c:/Users/imform-pc-17/Documents/bitbuket/qa-test-script/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "setup",
+        "name": "setup",
+        "testDir": "c:/Users/imform-pc-17/Documents/bitbuket/qa-test-script/tennis/gangil/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "/.*\\.setup\\.js/"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "c:/Users/imform-pc-17/Documents/bitbuket/qa-test-script/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "c:/Users/imform-pc-17/Documents/bitbuket/qa-test-script/tennis/gangil/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.41.2",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "auth.setup.js",
+      "file": "auth.setup.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "authenticate",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "setup",
+              "projectName": "setup",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 4116,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-04-17T02:39:46.850Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f376efe52c54b1a876fd-9d03a3bb502e264caa3f",
+          "file": "auth.setup.js",
+          "line": 5,
+          "column": 6
+        }
+      ]
+    },
+    {
+      "title": "event-join.spec.js",
+      "file": "event-join.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "event-join",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "failed",
+                  "duration": 25271,
+                  "error": {
+                    "message": "Error: locator.check: Target page, context or browser has been closed\nCall log:\n  \u001b[2m- waiting for getByLabel(':00~20:00')\u001b[22m\n",
+                    "stack": "Error: locator.check: Target page, context or browser has been closed\nCall log:\n  \u001b[2m- waiting for getByLabel(':00~20:00')\u001b[22m\n\n    at c:\\Users\\imform-pc-17\\Documents\\bitbuket\\qa-test-script\\tennis\\gangil\\tests\\event-join.spec.js:20:38",
+                    "location": {
+                      "file": "c:\\Users\\imform-pc-17\\Documents\\bitbuket\\qa-test-script\\tennis\\gangil\\tests\\event-join.spec.js",
+                      "column": 38,
+                      "line": 20
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 18 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'#place1005'\u001b[39m)\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 19 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'#td11'\u001b[39m)\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 20 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByLabel(\u001b[32m':00~20:00'\u001b[39m)\u001b[33m.\u001b[39mcheck()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 21 |\u001b[39m   page\u001b[33m.\u001b[39mon(\u001b[32m'dialog'\u001b[39m\u001b[33m,\u001b[39m dialog \u001b[33m=>\u001b[39m dialog\u001b[33m.\u001b[39maccept())\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 22 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'button'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'코트일일이용신청'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 23 |\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "c:\\Users\\imform-pc-17\\Documents\\bitbuket\\qa-test-script\\tennis\\gangil\\tests\\event-join.spec.js",
+                        "column": 38,
+                        "line": 20
+                      },
+                      "message": "Error: locator.check: Target page, context or browser has been closed\nCall log:\n  \u001b[2m- waiting for getByLabel(':00~20:00')\u001b[22m\n\n\n\u001b[0m \u001b[90m 18 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'#place1005'\u001b[39m)\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 19 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'#td11'\u001b[39m)\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 20 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByLabel(\u001b[32m':00~20:00'\u001b[39m)\u001b[33m.\u001b[39mcheck()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 21 |\u001b[39m   page\u001b[33m.\u001b[39mon(\u001b[32m'dialog'\u001b[39m\u001b[33m,\u001b[39m dialog \u001b[33m=>\u001b[39m dialog\u001b[33m.\u001b[39maccept())\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 22 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'button'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'코트일일이용신청'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 23 |\u001b[39m\u001b[0m\n\n\u001b[2m    at c:\\Users\\imform-pc-17\\Documents\\bitbuket\\qa-test-script\\tennis\\gangil\\tests\\event-join.spec.js:20:38\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-04-17T02:39:52.934Z",
+                  "attachments": [],
+                  "errorLocation": {
+                    "file": "c:\\Users\\imform-pc-17\\Documents\\bitbuket\\qa-test-script\\tennis\\gangil\\tests\\event-join.spec.js",
+                    "column": 38,
+                    "line": 20
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "815a5c8ed0b2a0c9d31f-13dddd2666831e5f905d",
+          "file": "event-join.spec.js",
+          "line": 11,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2024-04-17T02:39:46.103Z",
+    "duration": 32221.467,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}
